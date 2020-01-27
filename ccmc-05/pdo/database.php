@@ -16,7 +16,7 @@ if (!defined("DB_PASSWORD")) define("DB_PASSWORD", "admin123");
  * @return PDO データベース接続に成功した場合はデータベース接続オブジェクト、それ以外はnull
  * @throw PDOException
  */
-function connectDatabase() {
+function connectDatabase():PDO {
 	// データベースに接続
 	$pdo = null;
 	try {
