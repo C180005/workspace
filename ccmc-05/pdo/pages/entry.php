@@ -46,7 +46,7 @@ foreach ($rs as $record) {
 	<body>
 		<h1>PDOを使ってみる</h1>
 		<h2>地域を選択する</h2>
-		<form action="restaurants.phpl" method="get">
+		<form action="restaurants.php" method="get">
 		<select name="area">
 			<option value="0">-- 選択してください --</option>
 			<?php foreach ($areas as $area) {?>
