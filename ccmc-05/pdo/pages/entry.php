@@ -28,11 +28,12 @@ foreach ($rs as $record) {
 }
 
 // 結果セットの確認
-echo "<pre>";
+
+//echo "<pre>";
 //var_dump($rs);
-var_dump($areas);
-echo "</pre>";
-exit(0);
+//var_dump($areas);
+//echo "</pre>";
+//exit(0);
 ?>
 
 
